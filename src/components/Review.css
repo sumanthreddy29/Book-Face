@@ -1,0 +1,86 @@
+.review-fullbox{
+padding-top: 5rem;
+padding-left:23rem;
+background-color:lightblue;
+height: 45rem;
+
+}
+.review-form-actions button{
+  background-color: #4e71ba;
+  color: #fff;
+  border: none;
+border-radius: 0.25rem;
+font-size: 0.75rem;
+font-weight: bold;
+padding: 0.75em; 
+display: inline-block;
+text-decoration: none;
+  }
+
+  .review-box {
+    max-width: 37.5rem;
+    color:black;
+    border: 2px solid black;
+    border-radius: 0.875rem ; 
+    background-color:white;
+    padding: 0.2rem 1rem 2rem;
+  
+  }
+  .review-form {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin-bottom: 3rem;
+   
+  }
+  .review-form-fields {
+    width: 25rem;
+    margin-bottom: 0.25rem;
+  }
+  .review-form-fields input {
+      border: none;
+      border-bottom: 1px solid black;
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+      width: 99%;
+
+    }
+    .review-form-fields  textarea {
+      font-style: italic;
+      border: none;
+      border-bottom: 1px solid black;
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+      width: 99%;
+    }
+  
+  .review-count {
+    color:grey;
+  }
+  #review-reveal {
+    float: right;
+    background-color: #4e71ba;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.75em;
+  }
+  .review {
+    border-top: 0.125rem solid black;
+  }
+  .review-body {
+    font-style: italic;
+    margin-left: 1rem;
+  }
+  .review-footer {
+    margin-bottom: 1rem;
+  }
+  .review-footer-delete {
+    padding: 0.2rem 0;
+    color: 'grey';
+    text-decoration: none;
+    
+
+  }
+  

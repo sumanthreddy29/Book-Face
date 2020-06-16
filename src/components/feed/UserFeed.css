@@ -1,0 +1,155 @@
+
+.mainbody{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    min-height: 8rem;
+}
+.dp{
+    display: inline-block;
+    padding-bottom: -1rem;
+}
+.likescount h4{
+    margin-left: 2rem;
+}
+.likescount .like{
+    color: lightskyblue;
+}
+
+.likescount .dis{
+    color: tomato;
+}
+
+.likescount{
+    display: flex;
+    padding-left: 0.2rem;
+    margin: -0.7rem;
+}
+.likescount .cmt{
+    margin-left: 15rem;
+    color: lightskyblue;
+}
+
+ .username{
+    display: inline-block;
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+}
+    
+
+
+.spacer{
+    margin-top: 3rem;
+}
+
+
+.likes{
+    display: inline-block;
+   
+   
+}
+
+.likes li{
+    text-decoration: none;
+    padding-right: 7.5rem;
+    padding-left: 5.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    border: 0.1px solid#fff;
+    list-style: none;
+}
+
+.post{
+    margin-top: 5rem;
+}
+.outerpost{
+    background-color: lightblue;
+}
+.postbody{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    min-height: 8rem;
+    margin-bottom: -3rem;
+}
+
+.form-body{
+    display: flex;
+}
+.form-control{
+    border-radius: 1.2rem;
+    border: 2px solid #73AD21;
+    width: 20rem;
+    height: 5rem;
+    margin-top: -2rem;
+}
+
+.postbtn{
+    width: 4rem;
+    height: 2rem;
+    border: 0.1px solid #4e71ba ;
+    border-radius: 0.6rem;
+    background-color: #4e71ba;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 2.3rem;
+
+}
+.postbtn:hover{
+    background-color: #3b5998;
+}
+
+
+.likes li:hover{
+    background-color: gainsboro;
+}
+
+.maincard{
+    margin-top: 0.5rem;
+    min-height: 10rem;
+}
+
+.maincard1{
+    margin-top: 0.5rem;
+    margin-left: -1.8rem;
+    min-height: 10rem;
+    width: 33.5rem;
+
+}
+.cardpost{
+    height: 2.5rem;
+}
+
+
+.outerbody{
+    background-color: lightblue;
+}
+.likes{
+    display: flex;
+}
+.dp{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.cmt{
+    display: inline-block;
+   
+   
+}
+.cmt li:hover{
+    background-color: gainsboro;
+}
+
+.cmt li{
+    text-decoration: none;
+    padding-right: 15rem;
+    padding-left: 13rem;
+    padding-top: 0.5rem;
+    display: flex;
+    border: 0.1px solid#fff;
+    list-style: none;
+}
+

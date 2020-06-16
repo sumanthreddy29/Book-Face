@@ -1,0 +1,50 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background: #4e71ba;
+    height: 3rem; 
+    z-index: 100;
+    
+}
+.navbar_logo a{
+    margin-left: 8rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.navbar_items a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.space{
+    flex:1;
+}
+
+.navbar_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_items li {
+    padding: 0 3rem;
+}
+
+.navbar_items a:hover,
+.navbar_items a:active{
+    color:blueviolet;
+}
+

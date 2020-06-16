@@ -1,0 +1,88 @@
+.homebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background: #1E90FF;
+    height: 3rem; 
+}
+
+.homebar_logo a{
+    margin-left: 8rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.home_nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+.space{
+    flex:1;
+}
+.homebar_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.homebar_items li {
+    padding: 0 4rem;
+    font-family: 'Courier New', Courier, monospace
+}
+.btn{
+	display: inline-block;
+	padding: 0.6rem 2rem;
+	font-weight: lighter;
+	text-decoration: none;
+	border-radius: 12rem;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: transparent;
+	color: #fff;
+	margin-right: 1rem;
+	border: 0.2rem solid silver;
+}
+.btn:hover{
+    background-color:#FFE4E1;
+    color:black
+}
+.home{
+    
+    margin-top: -2rem;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+ h1{
+     padding-top: 14rem;
+     font-size: 3rem;
+    color: #fff;
+
+}
+.btn_register{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 140%;
+    display: inline-block;
+	padding: 0.6rem 2rem;
+	font-weight: lighter;
+	text-decoration: none;
+	border-radius: 12rem;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: transparent;
+	color: #fff;
+	margin-right: 1rem;
+	border: 0.2rem solid orange;
+
+}
+.btn_register:hover{
+    background-color:gray;
+}

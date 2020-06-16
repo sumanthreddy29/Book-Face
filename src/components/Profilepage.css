@@ -1,0 +1,73 @@
+.outerbody1{
+  padding-top: -10rem;
+}
+.App-logo {
+  padding: 5px;
+  height: 80px;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+  background-image: url("https://images.iphonephotographyschool.com/20207/1120b/blur-background-app-111.jpg");
+    background-repeat: no-repeat;
+   text-align: center;
+    
+    padding-top: 1.5rem;
+}
+
+.part1{
+    background-color: white;
+    
+}
+.part2{
+    background-color: aqua;
+    padding-top: 1.5rem;
+
+}
+
+.textcenter{
+    color: white;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  font-family: sans-serif;
+}
+ul.header {
+  background-color: #111111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+    font-size: xx-large;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+.content {
+  padding: 20px;
+    color: black;
+    text-align: center;
+    background-color: powderblue;
+     background-image: url("https://hdqwalls.com/download/blur-blue-gradient-cool-background-sp-1920x1080.jpg");
+    height: 709px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: cornflowerblue;
+}
+.textcenter{
+  padding-top:-10rem;
+}

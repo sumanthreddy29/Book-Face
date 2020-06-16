@@ -1,0 +1,97 @@
+
+.comment-form-actions{
+    margin-top: -3rem;
+    margin-left: 1.5rem;
+}
+ .postbutton{
+    width: 6rem;
+    height: 2rem;
+    border: 0.1px solid #4e71ba ;
+    border-radius: 0.6rem;
+    background-color: #4e71ba;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-top: 2.3rem;
+
+}
+.postbutton:hover{
+    background-color: #3b5998;
+}
+
+.showcmt{
+    width: 7rem;
+    height: 2rem;
+    float: right;
+    border: 0.1px solid #4e71ba ;
+    border-radius: 0.6rem;
+    background-color: #4e71ba;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-top: 2.3rem;
+
+}
+.showcmt:hover{
+    background-color: #3b5998;
+}
+
+  .comment-box {
+    max-width: 40.5rem;
+    color:black;
+    border: 2px solid lightcyan;
+    border-radius: 0.875rem ; 
+    background-color: white;
+    padding:1rem  0.2rem 1rem 2rem;
+  }
+  .comment-form {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin-bottom: 3rem;     
+  }
+  .comment-form-fields {
+    margin-top: -1rem;
+    margin-bottom: 0.25rem;
+    width: 25rem;
+    padding: 1.5rem;
+  }
+  .comment-form-fields input {
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+      width: 99%;
+    
+    }
+    .comment-form-fields  textarea {
+      margin-top: 1rem;
+      font-style: italic;
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+      width: 99%;
+    }
+  .comment-form-actions {
+    display: inline-block;
+  }
+  .comment-count {
+    color:grey;
+  }
+ 
+  .comment {
+    border-top: 0.125rem solid black;
+  }
+  .comment-body {
+    font-style: italic;
+    margin-left: 1rem;
+  }
+  .comment-footer {
+    margin-bottom: 1rem;
+  }
+  .comment-footer-delete {
+    padding: 0.2rem 0;
+    color: 'grey';
+    text-decoration: none;
+    
+
+  }
+  
